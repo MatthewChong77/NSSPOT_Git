@@ -232,7 +232,7 @@ int main(void) {
     NS_TRY(ns_peripheral_button_init(&button_config), "Button initialization failed.\n")
     ns_lp_printf("Button init successful.\n");
     model_init();
-
+Test Test 123
     ns_lp_printf("This KWS example listens for 1 second, then classifies\n");
     ns_lp_printf("the captured audio into one of the following phrases:\n");
     ns_lp_printf("yes, no, up, down, left, right, on, off, or unknown/silence\n\n");
